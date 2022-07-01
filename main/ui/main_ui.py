@@ -28,8 +28,10 @@ class Ui_MainWindow(object):
         font.setPointSize(14)
         self.label_2.setFont(font)
         self.label_2.setObjectName("label_2")
+
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(120, 130, 581, 311))
+
         font = QtGui.QFont()
         font.setPointSize(14)
         self.lineEdit.setFont(font)
@@ -59,6 +61,8 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "Анализ текста на наличие сарказма"))
         self.label_2.setText(_translate("MainWindow", "Введите свой текст:"))
         self.pushButton.setText(_translate("MainWindow", "Анализ"))
+
+
 
 
 if __name__ == "__main__":
