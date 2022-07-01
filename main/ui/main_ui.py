@@ -13,21 +13,21 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
-        self.centralwidget.setStyleSheet("background-color: white\n"
-"")
+        self.centralwidget.setStyleSheet("background-color: white\n")
         self.centralwidget.setObjectName("centralwidget")
-        self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(10, 10, 671, 51))
+
+        self.label_header = QtWidgets.QLabel(self.centralwidget)
+        self.label_header.setGeometry(QtCore.QRect(10, 10, 671, 51))
         font = QtGui.QFont()
         font.setPointSize(14)
-        self.label.setFont(font)
-        self.label.setObjectName("label")
-        self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(10, 70, 231, 21))
+        self.label_header.setFont(font)
+        self.label_header.setObjectName("label_header")
+        self.label_input = QtWidgets.QLabel(self.centralwidget)
+        self.label_input.setGeometry(QtCore.QRect(10, 70, 231, 21))
         font = QtGui.QFont()
         font.setPointSize(14)
-        self.label_2.setFont(font)
-        self.label_2.setObjectName("label_2")
+        self.label_input.setFont(font)
+        self.label_input.setObjectName("label_input")
 
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(120, 130, 581, 311))
@@ -41,16 +41,25 @@ class Ui_MainWindow(object):
         self.lineEdit.setCursorPosition(0)
         self.lineEdit.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
         self.lineEdit.setObjectName("lineEdit")
+
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(355, 490, 130, 30))
+
         font = QtGui.QFont()
         font.setPointSize(14)
         font.setBold(False)
         font.setWeight(50)
+
         self.pushButton.setFont(font)
         self.pushButton.setLayoutDirection(QtCore.Qt.LeftToRight)
-        self.pushButton.setObjectName("pushButton")
+        self.pushButton.setObjectName("Analyze")
         MainWindow.setCentralWidget(self.centralwidget)
+
+        self.label_output = QtWidgets.QLabel(self.centralwidget)
+        self.label_output.setGeometry(10,600, 250, 100)
+        self.label_output.setText('Результат анализа: ')
+        self.label_output.setFont(font)
+
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
@@ -58,8 +67,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "Анализ текста на наличие сарказма"))
-        self.label_2.setText(_translate("MainWindow", "Введите свой текст:"))
+        self.label_header.setText(_translate("MainWindow", "Анализ текста на наличие сарказма"))
+        self.label_input.setText(_translate("MainWindow", "Введите свой текст:"))
         self.pushButton.setText(_translate("MainWindow", "Анализ"))
 
 

@@ -11,9 +11,17 @@ class SarcasmDetection(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
         self.init_UI()
 
+
     def init_UI(self):
         self.setWindowTitle('Определение сарказма в предложении')
         self.setWindowIcon(QIcon('main/src/icons/analyze.png'))
+
+        self.ui.lineEdit.setPlaceholderText('Ваш текст')
+
+    def analyzer(self):
+        s = SarcasmDetection()
+        input_text = self.ui.lineEdit.text()
+
 
 app = QtWidgets.QApplication([])
 application = SarcasmDetection()
