@@ -3,5 +3,5 @@
 
 ---
 <div id='development'>
-  :desert_island: Находится в активной разработке
+  :desert_island: Находится в разработке
 </div>
