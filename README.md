@@ -47,7 +47,7 @@
   <p></p>
   
   <div id="footer">
-    <p><h5>Made by Dmitrii Evdokimov</h5><</p>
+    <p><h5>Made by Dmitrii Evdokimov</h5></p>
   </div>
   
 </div>
