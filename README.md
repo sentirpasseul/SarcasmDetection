@@ -7,7 +7,13 @@
 
 ---
 <div id='development'>
-  <h4>:desert_island: Находится в разработке</h4>
+  <h3>:desert_island: Находится в разработке</h3>
+  
+  <p><h3>Следующие goals:</h3></p>
+  <p><h4>:triangular_flag_on_post: Переписать полностью программу под новый стиль с pep8</h4></p>
+  <p><h4>:triangular_flag_on_post: Подключить нейросетевые алгоритмы</h4></p>
+  <p><h4>:triangular_flag_on_post: Заменить библиотеку dostoevsky на более лучший анализатор тональности текста</h4></p>
+  <p><h4>:triangular_flag_on_post: Улучшить алгоритм работы библиотеки Word2Vec</h4></p>
 </div>
 
 ---
