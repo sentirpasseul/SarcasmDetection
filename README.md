@@ -38,7 +38,7 @@
   <p><h3>Математическая модель программы:</h3></p>
   <img src='https://user-images.githubusercontent.com/71366294/196294349-176eb4d4-74bd-45fd-b897-24f5b592104e.png' style='width: 880px; height: 600px'/>
   
-<br></br>
+---
   
   <p><h3>Алгоритм распознавания сарказма:</h3></p>
   <img src="https://user-images.githubusercontent.com/71366294/196293820-407420cd-d50d-40a2-b290-557cf8aeb56d.png"/ style='width: 450px;height: 400px'>
@@ -47,16 +47,18 @@
   <p>2. Расчёт значений каждого параметра, используемого для распознавания сарказма;</p>
   <p>3. Интегральная оценка полученных параметров и расчет итогового показателя.</p>
   
-  <br></br>
+  ---
   
   <p><h3>Архитектура программного продукта:</h3></p>
   <img src="https://user-images.githubusercontent.com/71366294/196295279-08b129a4-1028-4e3b-8fbc-bc132b98467f.png" />
   
-  <br/>
-  <p></p>
-  
-  <div id="footer">
-    <p><h5>Made by Dmitrii Evdokimov</h5></p>
-  </div>
+  ---
+  <p><h3>Результаты экспериментов</h3></p>
+  <img src="https://user-images.githubusercontent.com/71366294/196353663-63b9bec9-f311-41b0-870a-f424ec9ceddf.png" />
+  <br></br>
+  <img src="https://user-images.githubusercontent.com/71366294/196353868-0748344e-b62e-4c43-83dc-875d3d7d63a2.png"/>
+  <br></br>
+  <img src="https://user-images.githubusercontent.com/71366294/196353956-e7528cd9-5b3e-4c62-a96a-0764c75f4be6.png"/>
+  ---
   
 </div>
